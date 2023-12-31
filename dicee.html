@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Dicee</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="headings">
+      <h1>Tài xỉu cùng Lilly</h1>
+      <p>Cờ bạc online - Người không chơi là người thắng</p>
+    </div>
+
+
+    <div class="dashboard">
+      <div class="player">
+        <p>Player 1</p>
+        <div class="form-control">
+          <label for="selections1">Chọn: </label>
+          <select name="selections1" id="selections1">
+            <option value="1">Tài (Chẵn)</option>
+            <option value="0">Xỉu (Lẻ)</option>
+          </select>
+        </div>
+        <div class="form-control">
+          <label for="money1">Đặt cược: </label>
+          <select name="money1" id="money1">
+            <option value="100000">100k</option>
+            <option value="200000">200k</option>
+            <option value="300000">300k</option>
+            <option value="500000">500k</option>
+            <option value="">All in</option>
+          </select>
+        </div>
+        <p>Tiền: <span id="totalMoney1">100000</span></p>
+      </div>
+      <div class="dices">
+        <img id="dice1" src="images/dice1.png" alt="">
+        <img id="dice2" src="images/dice1.png" alt="">
+      </div>
+      <div class="player">
+        <p>Player 2</p>
+        <div class="form-control">
+          <label for="selections2">Chọn: </label>
+          <select name="selection2" id="selections2">
+            <option value="1">Tài (Chẵn)</option>
+            <option value="0">Xỉu (Lẻ)</option>
+          </select>
+        </div>
+        <div class="form-control">
+          <label for="money2">Đặt cược: </label>
+          <select name="money2" id="money2">
+            <option value="100000">100k</option>
+            <option value="200000">200k</option>
+            <option value="300000">300k</option>
+            <option value="500000">500k</option>
+            <option value="">All in</option>
+          </select>
+        </div>
+        <p>Tiền: <span id="totalMoney2">100000</span></p>
+      </div>
+      <div class="start">
+        <h2></h2>
+        <p>Kết quả: <span></span></p>
+        <button>Xóc</button>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>

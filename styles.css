@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+}
+
+.headings {
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 6rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+.dashboard {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding: 0 15px;
+  margin-top: 70px;
+  position: relative;
+}
+
+.dices img {
+  width: 180px;
+}
+
+.form-control {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.form-control label,p {
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4ECCA3;
+}
+
+.form-control select {
+  width: 130px;
+  height: 25px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+}
+
+.start {
+  position: absolute;
+  bottom: -150px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.start button {
+  width: 100px;
+  height: 40px;
+  font-size: 22px;
+  color: #4ECCA3;
+  font-weight: bold;
+  background-color: #F9F9E0;
+  border: none;
+  outline: none;
+} 
+
+.start h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4ECCA3;
+}
+
+.start p {
+  margin: 15px 0;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
